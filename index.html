@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My GIF Page</title>
+  <meta charset="UTF-8" />
+  <script defer type="module" src="script.js"></script>
+</head>
+
+<body">
+
+  <a href="Giphy_Gallery/index.html">Go to Giphy Gallery</a>
+
+  <div style="margin: 50px;">
+    <div style="margin-bottom: 40px;">
+      <img id="trending-gif" alt="Fetched trending gif from Giphy API" />
+      <p id="trending-error"></p>
+      <button id="trending" value="trending-gif">Trending Gif</button>
+    </div>
+
+    <div style="margin-bottom: 40px;">
+      <img id="random-gif" alt="Fetched gif from Giphy API" />
+      <p id="random-error"></p>
+      <button id="random" value="random-gif">Random Gif</button>
+    </div>
+
+    <div style="margin-bottom: 40px;">
+      <img id="search-gif" alt="Fetched gif from Giphy API" />
+      <p id="search-error"></p>
+      <input type="text">
+      <button id="search" value="search-gif">Search Gif</button>
+    </div>
+  </div>
+
+  </body>
+
+</html>
